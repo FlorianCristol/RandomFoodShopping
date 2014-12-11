@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fugger.helloTests.SampleTest" tests="2" failures="0" errors="0" timestamp="2014-12-10T11:12:08" hostname="Hotzenplotz" time="0.3">
+  <properties/>
+  <testcase name="beanTestTest" classname="com.fugger.helloTests.SampleTest" time="0.3"/>
+  <testcase name="testPasses" classname="com.fugger.helloTests.SampleTest" time="0.0"/>
+  <system-out><![CDATA[Your message: Hello World2!
+Your second message:What the what2?
+TEST
+]]></system-out>
+  <system-err><![CDATA[Dec 10, 2014 12:12:08 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c6c47c: startup date [Wed Dec 10 12:12:08 CET 2014]; root of context hierarchy
+Dec 10, 2014 12:12:08 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [bean2.xml]
+]]></system-err>
+</testsuite>
