@@ -11,7 +11,7 @@
 			com.mysql.jdbc.Driver
 		</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost:3306/TEST
+			jdbc:mysql://localhost:3306/RECIPES
 		</property>
 		<property name="hibernate.connection.username">
 			git
@@ -20,5 +20,6 @@
 			somepassword0
 		</property>
 		<mapping resource="Employee.hbm.xml"/>
-	</session-factory>
+		<mapping resource="Recette.hbm.xml" />
+		</session-factory>
 </hibernate-configuration>
