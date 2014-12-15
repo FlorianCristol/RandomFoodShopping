@@ -27,5 +27,10 @@
 		</id>
 		<property name="nom" column="name" type="string" />
 		<property name="quantite" column="quantity" type="int" />
+		<property name="aile" column="aile">
+			<type name="org.hibernate.type.EnumType">
+				<param name="enumClass">hello.Aile</param>
+			</type>
+		</property>
 	</class>
  </hibernate-mapping>

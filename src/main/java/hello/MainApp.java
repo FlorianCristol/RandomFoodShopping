@@ -39,8 +39,12 @@ private static ServiceRegistry serviceRegistry;
   }
   public void addRecipe(){
 	  Ingredient in = new Ingredient("chocolat", 1);
+	  Aile ai = Aile.BOISSON;
+	  in.setAile(ai);
 	  List<Ingredient> lol = new ArrayList<Ingredient>();
 	  Recette rec = new Recette("Blue");
+
+
 	  rec.addIngredient(in);
 	  
 	  Session session = factory.openSession();
